@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TSAnalyticsSDKToolFramework"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "my test to upload framework to CocoaPods"
   s.description  = <<-DESC
                        this is my first framework, now I am learning to upload it to cocoapod
@@ -16,5 +16,7 @@ Pod::Spec.new do |s|
 
   # the framework upload to Cocoa Pods
   s.vendored_frameworks = "DemoFramework.framework"
-  #s.frameworks = "Foundation"
+  s.frameworks = "Foundation"
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+
 end
