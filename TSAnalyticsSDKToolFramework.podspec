@@ -16,4 +16,4 @@ Pod::Spec.new do |s|
 
   # the framework upload to Cocoa Pods
   s.vendored_frameworks = 'DemoFramework.framework'
-  s.frameworks = 'Foundation'
+  #s.frameworks = 'Foundation'
