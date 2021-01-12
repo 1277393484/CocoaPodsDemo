@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TSAnalyticsSDKToolFramework"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "my test to upload framework to CocoaPods"
   s.description  = <<-DESC
                        this is my first framework, now I am learning to upload it to cocoapod
